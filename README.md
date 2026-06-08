@@ -1,49 +1,27 @@
 # Feed-Distribution-and-Management-System
-# Project Features 
-1. Salesman Management
+This project is a relational database system designed to manage a Feed Distribution business. It handles core operations such as managing salesmen, customers, feed products, orders, deliveries, and payments in an organized and efficient way.
 
-Stores and manages salesman information including name, phone number, and address.
+The database is built using SQL with proper relationships between tables to ensure data integrity and reduce redundancy. It also includes sample data and useful queries for reporting and analysis.
 
-2. Feed Product Management
+# Features
+Manage Salesman and their assigned products
+Maintain Feed Products inventory with stock tracking
+Customer management system
+Order processing with order details
+Delivery tracking system
+Payment recording and management
+Automated calculations for order totals
+Reports for sales, stock, customers, and best-selling products
 
-Maintains records of different feed products such as poultry, fish, and cattle feed along with their prices and categories.
+# Reports Included
+Total products, customers, and orders
+Total sales summary
+Customer order details
+Delivery and payment reports
+Best-selling products analysis
+Stock availability tracking
 
-3. Inventory Management
-
-Tracks the available stock quantity of each feed product to help monitor inventory levels.
-
-4. Customer Management
-
-Stores customer information including name, contact number, and location for easy record keeping.
-
-5. Order Management
-
-Records customer orders and maintains order status such as Confirmed, Pending, or Delivered.
-
-6. Order Details Management
-
-Stores detailed information about products included in each order and their quantities.
-
-7. Delivery Tracking
-
-Tracks delivery information including delivery date, driver name, and delivery status.
-
-8. Payment Management
-
-Records payment details such as payment date, amount paid, and payment method.
-
-9. Sales Reporting
-
-Generates sales reports to calculate total sales and analyze business performance.
-
-10. Inventory and Product Reporting
-
-Provides reports about available stock and product information to support inventory decisions.
-
-11. Customer Order History
-
-Allows viewing all orders placed by a specific customer for better customer management.
-
-12. Product Performance Analysis
-
-Identifies the most frequently ordered products to understand customer demand and sales trends.
+# Technologies Used
+SQL (PostgreSQL)
+Relational Database Design
+ER-based structured schema
